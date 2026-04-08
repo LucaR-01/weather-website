@@ -39,7 +39,7 @@ def get_weather(city, units):
 
 # WEBSITE SETUP
 
-st.header("WeatherWatchers")
+st.header("What's the weather today?")
 
 city_input = st.text_input("City: ")
 units_input = st.radio("Choose your units", ["Metric", "Imperial"])
